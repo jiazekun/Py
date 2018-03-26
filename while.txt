@@ -1,0 +1,14 @@
+number=23
+running=True
+while running:
+    guess=int(input('Enter an integer:'))
+    if guess==number:
+        print('win')
+        running=False
+    elif guess<number:
+        print('higher than that')
+    else:
+        print('lower than that')
+else:
+    print('fuck you sb sunjie')
+print('Done')

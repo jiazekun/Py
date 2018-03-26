@@ -1,0 +1,11 @@
+def monConvert(ValueStr):
+    if ValueStr[-1] in ['$']:
+        r=eval(ValueStr[0:-1])*6
+        print("转换后是{:.2f}".format(r))
+    elif ValueStr[-1] in ['￥']:
+        m=eval(ValueStr[0:-1])/6
+        print("转换后是{:.2f}".format(m))
+    else:
+        print("格式错误")
+TempStr=input("请输入带有符号的钱")
+monConvert(TempStr)

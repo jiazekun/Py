@@ -1,0 +1,1 @@
+cmd /k C:\Users\贾泽坤\AppData\Local\Programs\Python\Python35\python.exe "$(FULL_CURRENT_PATH)" & PAUSE & EXIT

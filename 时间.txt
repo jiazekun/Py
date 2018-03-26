@@ -1,0 +1,4 @@
+from datetime import datetime
+
+someday=datetime(1998,8,5)
+someday.isoformat()

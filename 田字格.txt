@@ -1,0 +1,9 @@
+def jia():
+    print('+----+----+----+----+')
+def shu():
+    print('!    !    !    !    !')
+for i in range (4):
+    jia()
+    for i in range (4):
+        shu()
+jia()

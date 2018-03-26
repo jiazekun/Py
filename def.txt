@@ -1,0 +1,9 @@
+def fuck():
+    print("fuck you")
+def fuck2(name):
+    fuck()
+    fuck()
+    print("fuck my dear{}!".format(name))
+    fuck()
+fuck2("???")
+print()

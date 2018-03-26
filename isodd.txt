@@ -1,0 +1,4 @@
+def isodd():
+    n=int(input('请输入整数'))
+    print('true') if (n%2)==0 else print('false')
+isodd()

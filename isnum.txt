@@ -1,0 +1,7 @@
+def isnum():
+    n=str(input('输入字符串'))
+    if type(n) in [int]:
+        print('1')
+    else:
+        print('0')
+isnum()

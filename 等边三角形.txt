@@ -1,0 +1,11 @@
+from turtle import *
+setup(0.5,0.5,None,None)
+pu()
+fd(100)
+pd()
+seth(-120)
+fd(120)
+seth(0)
+fd(120)
+seth(120)
+fd(120)
